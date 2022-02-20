@@ -18,7 +18,7 @@ const Form = () => {
           <FormColumn small>
             <FormTitle>Registre-se</FormTitle>
             <FormWrapper
-              action="https://formsubmit.co/cff3b84938f5937a17cdfeb3be84be5f"
+              action="https://formsubmit.co/saintseiyagranultimate@gmail.com"
               method="POST"
             >
               <input type="hidden" name="_captcha" value="false" />
