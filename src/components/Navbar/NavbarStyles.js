@@ -98,7 +98,7 @@ export const NavLinks = styled.span`
 	padding: 0.5rem 1rem;
 	height: 100%;
 	&:hover {
-		color: #c8c9d8;
+		color: #0C0A12;
 		transition: all 0.3s ease;
 	}
 	@media screen and (max-width: 960px) {
