@@ -21,7 +21,7 @@ const Carousel = () => {
 					Reinos Jogáveis
 				</Heading>
 				<ButtonContainer>
-					<IconContext.Provider value={{ size: '3rem', color: '#4F387D' }}>
+					<IconContext.Provider value={{ size: '3rem', color: '#181126' }}>
 						<FaArrowCircleLeft onClick={sliderRef?.slickPrev} />
 						<FaArrowCircleRight onClick={sliderRef?.slickNext} />
 					</IconContext.Provider>
