@@ -26,7 +26,7 @@ export const featuresData = [
 		imgClass: 'four',
 	},
 	{
-		name: 'Preço',
+		name: 'Gratuito',
 		description: 'Tudo no RPG é totalmente de graça! Ta esperando o que pra criar sua conta?',
 		icon: iconStyle(BiDollar),
 		imgClass: 'five',
