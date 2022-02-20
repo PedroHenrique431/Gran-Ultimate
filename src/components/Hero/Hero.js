@@ -8,7 +8,7 @@ const Hero = () => {
 		<HeroSection>
 			<HeroVideo src="./assets/bg.jpeg" />
 			<Container>
-				<MainHeading>Gran Ultimate - Saint Seiya RPG</MainHeading>
+				<MainHeading>Gran_Ultimate - Saint Seiya RPG</MainHeading>
 				<HeroText>
 					Um RPG narrativo sobre seu universo favorito dos animes!
 				</HeroText>
