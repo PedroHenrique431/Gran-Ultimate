@@ -25,18 +25,18 @@ const Form = () => {
               <input
                 type="hidden"
                 name="_next"
-                value="https://portfolio-pedrohbs.herokuapp.com/"
+                value="https://chat.whatsapp.com/KiShRjXtQsZKBqs32zXQQ4"
               />
               <input type="hidden" name="_template" value="table"></input>
               <FormRow>
-			  <FormLabel>Possui experiência com RPG?</FormLabel>
+                <FormLabel>Possui experiência com RPG?</FormLabel>
                 <select id="experiencia" name="experiencia">
                   <option value="sim">Sim</option>
                   <option value="não">Não</option>
                 </select>
-				</FormRow>
-				<FormRow>
-				<FormLabel>Conehce cavaleiros do zodiaco?</FormLabel>
+              </FormRow>
+              <FormRow>
+                <FormLabel>Conehce cavaleiros do zodiaco?</FormLabel>
                 <select id="conheceCDZ" name="conheceCDZ">
                   <option value="sim">Sim</option>
                   <option value="não">Não</option>
@@ -56,9 +56,8 @@ const Form = () => {
                 <FormInput
                   type="tel"
                   name="telefone"
-                  placeholder="Seu número de telefone  (xx) xxxxx-xxxx "
-				  pattern="([0-9]{2})[0-9]{4}-[0-9]{4}"
-                  required 
+                  placeholder="Seu número de telefone "
+                  required
                 ></FormInput>
 
                 <FormLabel>Escolha seu Reino</FormLabel>
@@ -67,14 +66,14 @@ const Form = () => {
                   <option value="Submundo">Submundo</option>
                 </select>
 
-			  <FormInput
+                <FormInput
                   type="text"
                   name="nomePersonagem"
                   placeholder="Nome do seu Personagem"
                   required
                 ></FormInput>
-                
-				<FormInput
+
+                <FormInput
                   type="number"
                   name="idadePersonagem"
                   placeholder="Idade do seu Personagem"
@@ -87,33 +86,32 @@ const Form = () => {
                   <option value="Africa">Africa</option>
                   <option value="Europa">Europa</option>
                   <option value="Ásia">Asia</option>
-				  <option value="Oceania">Oceania</option>
-				  <option value="Antartida">Antartida</option>
+                  <option value="Oceania">Oceania</option>
+                  <option value="Antartida">Antartida</option>
                 </select>
 
-				<FormInput
-                  type="phone"
-                  name="E-mail"
+                <FormInput
+                  type="text"
+                  name="mestre"
                   placeholder="Nome do seu Mestre (Não obrigatorio)"
                 ></FormInput>
 
                 <FormLabel>Escolha o signo do seu Personagem</FormLabel>
                 <select id="signo" name="signo">
-                  <option value="América">Áries</option>
-                  <option value="Africa">Touro</option>
-                  <option value="Europa">Gêmeos</option>
-                  <option value="Ásia">Câncer</option>
-				  <option value="Oceania">Leão</option>
-				  <option value="Antartida">Virgem</option>
-				  <option value="América">Libra</option>
-                  <option value="Africa">Escorpião</option>
-                  <option value="Europa">Sagitário</option>
-                  <option value="Ásia">Capricórnio</option>
-				  <option value="Oceania">Aquário</option>
-				  <option value="Antartida">Peixes</option>
+                  <option value="Áries">Áries</option>
+                  <option value="Touro">Touro</option>
+                  <option value="Gêmeos">Gêmeos</option>
+                  <option value="Câncer">Câncer</option>
+                  <option value="Leão">Leão</option>
+                  <option value="Virgem">Virgem</option>
+                  <option value="Libra">Libra</option>
+                  <option value="Escorpião">Escorpião</option>
+                  <option value="Sagitário">Sagitário</option>
+                  <option value="Capricórnio">Capricórnio</option>
+                  <option value="Aquário">Aquário</option>
+                  <option value="Peixes">Peixes</option>
                 </select>
-
-             </FormRow>
+              </FormRow>
               <FormButton type="submit">Enviar</FormButton>
             </FormWrapper>
           </FormColumn>
