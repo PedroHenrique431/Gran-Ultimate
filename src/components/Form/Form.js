@@ -73,6 +73,7 @@ const Form = () => {
               "",
               "",
               "",
+              "",
               idadePersonagem,
               signo,
               continente,
