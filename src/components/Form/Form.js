@@ -192,8 +192,8 @@ const Form = () => {
                   <option value="Não Escolheu">------</option>
                   <option value="Santuário">Santuário</option>
                   <option value="Submundo">Submundo</option>
-                  <option value="Santuário">Asgard</option>
-                  <option value="Submundo">Atlântida</option>
+                  <option value="Asgard">Asgard</option>
+                  <option value="Atlântida">Atlântida</option>
                 </select>
 
                 <FormInput
