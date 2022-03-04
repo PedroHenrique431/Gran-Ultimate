@@ -48,6 +48,7 @@ export const FormRow = styled.div`
 	margin: 0 -15px -15px -15px;
 	flex-wrap: wrap;
 	align-items: center;
+	margin-bottom: 10px;
 `;
 
 export const FormWrapper = styled.form`
