@@ -121,7 +121,7 @@ const Form = () => {
             <FormTitle>Registre-se</FormTitle>
             <FormWrapper onSubmit={handleSubmit}>
               <FormRow>
-                <FormLabel>Possui experiência com RPG?</FormLabel>
+                <FormLabel>Possui experiência com RPG's?</FormLabel>
                 <select
                   id="experiencia"
                   name="experiencia"
@@ -135,7 +135,7 @@ const Form = () => {
                 </select>
               </FormRow>
               <FormRow>
-                <FormLabel>Conehce cavaleiros do zodiaco?</FormLabel>
+                <FormLabel>Conhece cavaleiros do zodíaco?</FormLabel>
                 <select
                   id="conheceCDZ"
                   name="conheceCDZ"
@@ -157,7 +157,7 @@ const Form = () => {
                   onChange={handleCHange}
                 ></FormInput>
                 <FormInput
-                  type="text"
+                  type="number"
                   name="Idade"
                   placeholder="Sua idade"
                   value={Idade}
@@ -222,17 +222,17 @@ const Form = () => {
                 >
                   <option value="Não Escolheu">------</option>
                   <option value="América">América</option>
-                  <option value="Africa">Africa</option>
+                  <option value="Africa">África</option>
                   <option value="Europa">Europa</option>
-                  <option value="Ásia">Asia</option>
+                  <option value="Ásia">Ásia</option>
                   <option value="Oceania">Oceania</option>
-                  <option value="Antartida">Antartida</option>
+                  <option value="Antartida">Antártida</option>
                 </select>
 
                 <FormInput
                   type="text"
                   name="mestre"
-                  placeholder="Nome do seu Mestre (Não obrigatorio)"
+                  placeholder="Nome do seu Mestre (Não obrigatório)"
                   value={mestre}
                   onChange={handleCHange}
                 ></FormInput>
